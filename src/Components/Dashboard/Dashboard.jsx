@@ -216,7 +216,7 @@ const Dashboard = () => {
             {showModal && (
                 <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
                     <div className=" flex flex-col items-center bg-white rounded-lg p-8 text-center w-[400px]">
-                        <img className="w-[72px] h-[68px]" src="/src/assets/Group.png" alt="" />
+                        <img className="w-[72px] h-[68px]" src="/assets/Group.png" alt="" />
                         <h2 className="text-xl font-bold text-[#9538E2]">Payment Successful</h2>
                         <p className="mt-4 text-lg">Your purchase was successful!</p>
                         <p className="mt-4 text-md">Total Price: ${cartList.reduce((acc, product) => acc + product.price, 0).toFixed(2)}</p> {/* Ensure the total price is being displayed */}

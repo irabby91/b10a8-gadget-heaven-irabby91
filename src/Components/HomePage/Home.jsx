@@ -24,7 +24,7 @@ const Home = () => {
 
             {/* Sub Banner section of home page */}
             <div className="h-[610px] w-[1110px] border-2 bg-[#FFFFFF4D] flex justify-center items-center rounded-[32px] mx-auto -mt-[120px]">
-                <img className="w-[1062px] h-[563px] rounded-[32px]" src="/src/assets/banner.jpg" alt="" />
+                <img className="w-[1062px] h-[563px] rounded-[32px]" src="/assets/banner.jpg" alt="" />
             </div>
 
             <div className="mx-auto flex justify-center mt-[20px] mb-[20px]">
