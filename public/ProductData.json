@@ -1,0 +1,323 @@
+[
+    {
+      "product_id": "E001",
+      "product_title": "Apple AirPods Pro",
+      "product_image": "/public/Images/Apple Air Pods Pro.jpeg",
+      "category": "Earbuds",
+      "price": 249.99,
+      "description": "Active noise cancellation for immersive sound. Transparency mode for hearing and connecting with the world around you.",
+      "Specification": [
+        "Bluetooth 5.0",
+        "Up to 4.5 hours of listening time",
+        "Active noise cancellation",
+        "Wireless charging case"
+      ],
+      "availability": false,
+      "rating": 4.8
+    },
+    {
+      "product_id": "E002",
+      "product_title": "Dell XPS 13",
+      "product_image": "/public/Images/Dell XPS 13.jpeg",
+      "category": "Laptops",
+      "price": 999.99,
+      "description": "Stunning design with a nearly borderless display, powerful performance, and long battery life.",
+      "Specification": [
+        "13.3-inch Full HD display",
+        "16GB RAM",
+        "512GB SSD",
+        "Intel Core i7 processor"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "E003",
+      "product_title": "Samsung Galaxy S21",
+      "product_image": "/public/Images/Samsung Galaxy S21.jpg",
+      "category": "Mobile",
+      "price": 799.99,
+      "description": "Flagship smartphone with advanced features and a stunning display.",
+      "Specification": [
+        "6.2-inch AMOLED display",
+        "256GB storage",
+        "64MP triple camera",
+        "5G connectivity"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "E004",
+      "product_title": "Sony WF-1000XM4",
+      "product_image": "/public/Images/Sony WF-1000XM4.jpg",
+      "category": "Earbuds",
+      "price": 279.99,
+      "description": "Industry-leading noise canceling with Dual Noise Sensor technology.",
+      "Specification": [
+        "Bluetooth 5.2",
+        "Up to 8 hours of battery life",
+        "Active noise cancellation",
+        "Wireless charging case"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "E005",
+      "product_title": "MacBook Pro 16",
+      "product_image": "/public/Images/MacBook Pro 16.jpeg",
+      "category": "Laptops",
+      "price": 2399.99,
+      "description": "High-performance laptop with a stunning Retina display and powerful processor.",
+      "Specification": [
+        "16-inch Retina display",
+        "16GB RAM",
+        "1TB SSD",
+        "Apple M1 Pro chip"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "E006",
+      "product_title": "Google Pixel 6",
+      "product_image": "/public/Images/Google Pixel 6.jpg",
+      "category": "Mobile",
+      "price": 599.99,
+      "description": "Google's latest smartphone with an excellent camera and smooth performance.",
+      "Specification": [
+        "6.4-inch AMOLED display",
+        "128GB storage",
+        "50MP dual camera",
+        "5G connectivity"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "E007",
+      "product_title": "Jabra Elite 85t",
+      "product_image": "/public/Images/Jabra Elite 85t.jpg",
+      "category": "Earbuds",
+      "price": 229.99,
+      "description": "Advanced noise-cancelling earbuds with superior sound and comfort.",
+      "Specification": [
+        "Bluetooth 5.1",
+        "Up to 5.5 hours of battery life",
+        "Active noise cancellation",
+        "Wireless charging case"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "E008",
+      "product_title": "HP Spectre x360",
+      "product_image": "/public/Images/HP Spectre x360.jpg",
+      "category": "Laptops",
+      "price": 1249.99,
+      "description": "Convertible laptop with a touchscreen display and excellent performance.",
+      "Specification": [
+        "13.3-inch 4K touchscreen display",
+        "16GB RAM",
+        "512GB SSD",
+        "Intel Core i7 processor"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "E009",
+      "product_title": "iPhone 13 Pro",
+      "product_image": "/public/Images/iPhone 13 Pro.jpeg",
+      "category": "Mobile",
+      "price": 999.99,
+      "description": "Apple's latest iPhone with an advanced camera system and powerful chip.",
+      "Specification": [
+        "6.1-inch Super Retina XDR display",
+        "128GB storage",
+        "12MP triple camera",
+        "5G connectivity"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "E010",
+      "product_title": "Anker Soundcore Liberty Air 2 Pro",
+      "product_image": "/public/Images/Anker Soundcore Liberty Air 2 Pro.jpg",
+      "category": "Earbuds",
+      "price": 129.99,
+      "description": "True wireless noise cancelling earbuds with superior sound and customizable features.",
+      "Specification": [
+        "Bluetooth 5.0",
+        "Up to 7 hours of battery life",
+        "Active noise cancellation",
+        "Wireless charging case"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "E011",
+      "product_title": "Microsoft Surface Laptop 4",
+      "product_image": "/public/Images/Microsoft Surface Laptop 4.jpg",
+      "category": "Laptops",
+      "price": 1499.99,
+      "description": "Ultra-thin and light laptop with excellent performance and battery life.",
+      "Specification": [
+        "15-inch PixelSense display",
+        "16GB RAM",
+        "512GB SSD",
+        "Intel Core i7 processor"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "E012",
+      "product_title": "OnePlus 9 Pro",
+      "product_image": "/public/Images/OnePlus 9 Pro.jpg",
+      "category": "Mobile",
+      "price": 969.99,
+      "description": "High-end smartphone with a smooth display and fast charging capabilities.",
+      "Specification": [
+        "6.7-inch Fluid AMOLED display",
+        "256GB storage",
+        "48MP quad camera",
+        "5G connectivity"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "E013",
+      "product_title": "Bose QuietComfort Earbuds",
+      "product_image": "/public/Images/Bose QuietComfort Earbuds.jpg",
+      "category": "Earbuds",
+      "price": 279.99,
+      "description": "Wireless earbuds with world-class noise cancellation and high-fidelity audio.",
+      "Specification": [
+        "Bluetooth 5.1",
+        "Up to 6 hours of battery life",
+        "Active noise cancellation",
+        "Wireless charging case"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "E014",
+      "product_title": "Asus ROG Zephyrus G14",
+      "product_image": "/public/Images/Asus ROG Zephyrus G14.jpg",
+      "category": "Laptops",
+      "price": 1499.99,
+      "description": "Compact and powerful gaming laptop with impressive graphics and performance.",
+      "Specification": [
+        "14-inch Full HD display",
+        "16GB RAM",
+        "1TB SSD",
+        "AMD Ryzen 9 processor"
+      ],
+      "availability": true,
+      "rating": 4.7
+    },
+    {
+      "product_id": "E015",
+      "product_title": "Samsung Galaxy Buds Pro",
+      "product_image": "/public/Images/Samsung Galaxy Buds Pro.jpg",
+      "category": "Earbuds",
+      "price": 199.99,
+      "description": "Premium wireless earbuds with intelligent active noise cancellation and superior sound quality.",
+      "Specification": [
+        "Bluetooth 5.0",
+        "Up to 5 hours of battery life",
+        "Active noise cancellation",
+        "Wireless charging case"
+      ],
+      "availability": true,
+      "rating": 4.6
+    },
+    {
+      "product_id": "E016",
+      "product_title": "Acer Swift 3",
+      "product_image": "/public/Images/Acer Swift 3.jpg",
+      "category": "Laptops",
+      "price": 749.99,
+      "description": "Affordable and lightweight laptop with a long battery life and reliable performance.",
+      "Specification": [
+        "14-inch Full HD display",
+        "8GB RAM",
+        "512GB SSD",
+        "AMD Ryzen 7 processor"
+      ],
+      "availability": true,
+      "rating": 4.5
+    },
+    {
+      "product_id": "E017",
+      "product_title": "Apple MacBook Air M1",
+      "product_image": "/public/Images/Apple MacBook Air M1.jpg",
+      "category": "Laptops",
+      "price": 999.99,
+      "description": "Apple's lightweight and powerful laptop with an impressive Retina display.",
+      "Specification": [
+        "13.3-inch Retina display",
+        "8GB RAM",
+        "256GB SSD",
+        "Apple M1 chip"
+      ],
+      "availability": true,
+      "rating": 4.9
+    },
+    {
+      "product_id": "E018",
+      "product_title": "Sony WH-1000XM4",
+      "product_image": "/public/Images/Sony WH-1000XM4.jpg",
+      "category": "Earbuds",
+      "price": 349.99,
+      "description": "Industry-leading noise canceling headphones with exceptional sound quality.",
+      "Specification": [
+        "Bluetooth 5.0",
+        "Up to 30 hours of battery life",
+        "Active noise cancellation",
+        "Touch controls"
+      ],
+      "availability": true,
+      "rating": 4.8
+    },
+    {
+      "product_id": "E019",
+      "product_title": "Google Pixel Buds A-Series",
+      "product_image": "/public/Images/Google Pixel Buds A-Series.jpg",
+      "category": "Earbuds",
+      "price": 99.99,
+      "description": "Wireless earbuds with rich sound and a comfortable, secure fit.",
+      "Specification": [
+        "Bluetooth 5.0",
+        "Up to 5 hours of battery life",
+        "Water-resistant",
+        "Compact charging case"
+      ],
+      "availability": true,
+      "rating": 4.4
+    },
+    {
+      "product_id": "E020",
+      "product_title": "Huawei MateBook X Pro",
+      "product_image": "/public/Images/Huawei MateBook X Pro.jpg",
+      "category": "Laptops",
+      "price": 1299.99,
+      "description": "Sleek and powerful laptop with a stunning display and long battery life.",
+      "Specification": [
+        "13.9-inch 3K touchscreen display",
+        "16GB RAM",
+        "512GB SSD",
+        "Intel Core i7 processor"
+      ],
+      "availability": true,
+      "rating": 4.6
+    }
+  ]
+  
