@@ -7,7 +7,6 @@ const NavBar = () => {
     return (
         <div className="flex justify-around pt-[32px] pb-[32px] items-center">
             <h3 className={isHomeActive
-
                 ? "text-white font-sora text-[20px] font-bold"
                 : "text-[#9538E2] font-sora text-[20px] font-bold"
             }>Gadget Heaven</h3>

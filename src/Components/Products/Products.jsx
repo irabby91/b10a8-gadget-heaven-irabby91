@@ -67,9 +67,8 @@ const Products = () => {
                     </div>
                 ) : (
                     <div>
-                        <img className='rounded-3xl' src="/src/assets/product-not-found.jpg" alt="" />
-                        
-                        </div>
+                        <img className='rounded-3xl' src="/public/assets/product-not-found.jpg" alt="" />
+                    </div>
 
                 )}
             </div>

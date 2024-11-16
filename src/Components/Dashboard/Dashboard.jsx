@@ -79,6 +79,18 @@ const Dashboard = () => {
     };
 
     const handlePurchase = () => {
+        const purchaseHistory = JSON.parse(localStorage.getItem("purchase-history")) || [];
+        const updatedHistory = [
+            ...purchaseHistory,
+            ...cartList.map((product) => ({
+                product_id: product.product_id,
+                product_title: product.product_title,
+                price: product.price,
+                purchaseDate: new Date().toISOString(),
+            })),
+        ];
+        localStorage.setItem("purchase-history", JSON.stringify(updatedHistory));
+
         setShowModal(true);
         setCartList([]);
         localStorage.removeItem("cart-list");

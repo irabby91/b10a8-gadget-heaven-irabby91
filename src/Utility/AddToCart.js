@@ -13,7 +13,6 @@ const getAddToCartList = () => {
 const addToCartList = (id) => {
     const cartedList = getAddToCartList();
 
-    // Prevent adding duplicates
     if (!cartedList.includes(id)) {
         cartedList.push(id);
         const cartedListstr = JSON.stringify(cartedList);
@@ -30,7 +29,7 @@ const addToCartList = (id) => {
 
 const removeFromCart = (id) => {
     const cartedList = getAddToCartList();
-    const updatedCartList = cartedList.filter((itemId) => itemId !== id); // Remove item by ID
+    const updatedCartList = cartedList.filter((itemId) => itemId !== id);
     localStorage.setItem("cart-list", JSON.stringify(updatedCartList));
     toast("Removed from Cart Successfully", {
         position: "top-center",
@@ -49,8 +48,6 @@ const getAddToWishList = () => {
 
 const addToWishList = (id) => {
     const wishList = getAddToWishList();
-
-    // Prevent adding duplicates
     if (!wishList.includes(id)) {
         wishList.push(id);
         const wishListstr = JSON.stringify(wishList);
@@ -67,18 +64,11 @@ const addToWishList = (id) => {
 
 const removeFromWishList = (id) => {
     const wishList = getAddToWishList();
-    const updatedWishList = wishList.filter((itemId) => itemId !== id); // Remove item by ID
+    const updatedWishList = wishList.filter((itemId) => itemId !== id); 
     localStorage.setItem("Wish-list", JSON.stringify(updatedWishList));
     toast("Removed from Wish List Successfully", {
         position: "top-center",
     });
 };
 
-export { 
-    addToCartList, 
-    getAddToCartList, 
-    removeFromCart, 
-    getAddToWishList, 
-    addToWishList, 
-    removeFromWishList 
-};
+export { addToCartList, getAddToCartList, removeFromCart, getAddToWishList, addToWishList, removeFromWishList };
