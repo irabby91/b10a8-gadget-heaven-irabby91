@@ -18,6 +18,7 @@ import ProductDetails from './Components/ProductDetails/ProductDetails';
 
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 
 const router = createBrowserRouter([
@@ -50,10 +51,14 @@ const router = createBrowserRouter([
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <RouterProvider router={router} />
-    
-    <ToastContainer />
+    <HelmetProvider>
+      <RouterProvider router={router} />
+      <ToastContainer />
+      <Helmet>
+        <title>Gadget Heaven | Home</title>
+      </Helmet>
+    </HelmetProvider>
   </StrictMode>,
-  
-  
+
+
 )

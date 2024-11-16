@@ -1,5 +1,6 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import { addToCartList, addToWishList } from "../../Utility/AddToCart";
+import { Helmet } from "react-helmet-async";
 
 const ProductDetails = () => {
     const { productId } = useParams();
@@ -18,6 +19,7 @@ const ProductDetails = () => {
     }
     return (
         <div>
+            <Helmet><title>Gadget Heaven | Product Details</title></Helmet>
             <div className="w-[100%] bg-[#9538E2] h-[463px] flex flex-col gap-4 items-center pt-[32px]">
                 <h3 className="font-sora text-[32px] font-bold text-[#ffffff]">
                     Product Details

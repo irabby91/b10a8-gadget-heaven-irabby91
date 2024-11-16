@@ -8,6 +8,7 @@ import {
 } from "../../Utility/AddToCart";
 import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
+import { Helmet } from "react-helmet-async";
 
 const Dashboard = () => {
     const allProduct = useLoaderData();
@@ -90,6 +91,7 @@ const Dashboard = () => {
 
     return (
         <div>
+            <Helmet><title>Gadget Heaven | Dashboard</title></Helmet>
             <div className="flex flex-col bg-[#9538E2] h-[344px] items-center gap-6 pt-[32px]">
                 <h3 className="font-sora text-[32px] font-bold text-[#FFFFFF]">Dashboard</h3>
                 <p className="font-sora text-[18px] font-normal text-[#FFFFFF] text-center">
